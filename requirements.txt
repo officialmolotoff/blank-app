@@ -1,5 +1,5 @@
 streamlit
 matplotlib
 numpy
-scipy.optimize
+scipy
 pandas
