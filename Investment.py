@@ -46,6 +46,7 @@ def investment():  #tabs - это вкладки; number - номер данно
 
         #далее код для нахождения периода инвестирования, в котором впервые проект окупился
         summa = 0
+        n_0 = 0
         for i in range(n):
             summa += income/((1+r)**(i+1))
             if (-K + summa) > 0:
@@ -173,6 +174,3 @@ def investment():  #tabs - это вкладки; number - номер данно
             "доходность": [None, None, None]
             })
         ax.add_rows(line_0)'''
-    
-            
-            
