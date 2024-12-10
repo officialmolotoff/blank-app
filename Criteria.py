@@ -46,8 +46,8 @@ def criteria():  #tabs - это вкладки; number - номер данной
         #создание таблицы для возможности ввода вероятностей для внешних условий
         prob = pd.DataFrame(
             {
-                "Внешние условия": [i+1 for i in range (n)],
-                "Вероятности": [0.01 for i in range (n)],
+                "Внешние условия": [i+1 for i in range (m)],
+                "Вероятности": [0.01 for i in range (m)],
             }
         )
         prob = st.data_editor(
