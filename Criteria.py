@@ -120,7 +120,7 @@ def criteria():  #tabs - это вкладки; number - номер данной
                     "Варианты решений": [i+1 for i in range (n)],
                     "Минимаксный критерий": sets_mm,
                     "Критерий Севиджа": sets_s,
-                    "Критерий Байесса-Лапласа": sets_bl,
+                    "Критерий Байеса-Лапласа": sets_bl,
                 }
             )
             result = st.data_editor(
@@ -132,7 +132,7 @@ def criteria():  #tabs - это вкладки; number - номер данной
                     "Критерий Севиджа": st.column_config.TextColumn(
                         disabled = True
                     ),
-                    "Критерий Байесса-Лапласа": st.column_config.TextColumn(
+                    "Критерий Байеса-Лапласа": st.column_config.TextColumn(
                         disabled = True
                     ),
                     "Варианты решений": st.column_config.NumberColumn(
